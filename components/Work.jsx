@@ -16,7 +16,7 @@ const Work = () => {
                  <Boxes 
                   ProjectName = "METRACK TEASER"
                   image = '/2.jpg'
-                  link = 'https://replit-clone.netlify.app/'
+                  link = 'https://youtu.be/KaPjkj5WAaI'
                  />
                  <Boxes 
                   ProjectName = "TOKA"

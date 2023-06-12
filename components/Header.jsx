@@ -11,10 +11,9 @@ const Header = () => {
         <div>
           <h1 className='video-editor-name text-9xl'>VAIBHAV RAJPOOT</h1>
         </div>
-        <div>
-          <div className='circle'>
+        <div className='container flex justify-center items-center'>
+          <div className='circle'></div>
             <h1 className='video-editor-demo text-lg'>RENDERS</h1>
-          </div>
         </div>
       </div>
     </>

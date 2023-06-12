@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
     <nav className='navbar flex justify-center z-10 p-8 w-full'>
-        <div className='flex justify-between   nav'>
+        <div className='flex justify-between nav'>
 
             <h1 className='font-black text-white text-6xl  '>
               <Link href='/'>VR</Link>
