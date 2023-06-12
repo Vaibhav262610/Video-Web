@@ -1,17 +1,21 @@
-import Link from 'next/link'
-import React from 'react'
-import Boxes from './Boxes'
- 
 
-const Work = () => {
+import Head from 'next/head'
+import React from 'react'
+import Boxes from '@/components/Boxes'
+import Link from 'next/link'
+
+const Long = ({ProjectName , image , link}) => {
   return (
     <>
-        <div className='work flex justify-center items-center'>
-            <div className='flex flex-col justify-center items-center'>
-                <div className='flex flex-col gap-6 items-center'>
-                    <h1 className='work_head  text-white font-bold text-7xl'>THE <span className='render'>RENDERS</span></h1>
-                    <h1 className='work_sub text-lg'>BY ALL MEANS, CHOOSE YOUR STYLE ------</h1>
+    <Head>
+      <title>PLAYLISTS</title>
+    </Head>
+    <div className='playlist flex flex-col justify-center items-center gap-6 items-center'>
+                    <h1 className=' text-white font-bold text-7xl'>LONG <span className='render'>VIDEO</span> CONTENT</h1>
+                    <h1 className='work_sub text-lg'>LOOK WHAT ARE YOU SEARCHING FOR ------</h1>
                 </div>
+    <div className='work flex justify-center items-center'>
+            <div className='flex flex-col justify-center items-center'>
                 <div className='boxes grid grid-rows-3 sm:grid-rows-3 grid-flow-row gap-14 sm:grid-flow-col'>
                  <Boxes 
                   ProjectName = "METRACK TEASER"
@@ -45,17 +49,10 @@ const Work = () => {
                    />
             
              </div>
-             <div className='btn pb-14'>
-              <Link href='/Videos'>
-                <button className='work_btn '>
-                    VIEW MORE
-                </button>
-              </Link>
-             </div>
             </div>
         </div>
     </>
   )
 }
 
-export default Work
+export default Long
