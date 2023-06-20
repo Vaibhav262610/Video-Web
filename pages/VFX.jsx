@@ -3,6 +3,7 @@ import Head from 'next/head'
 import React from 'react'
 import Boxes from '@/components/Boxes'
 import Link from 'next/link'
+import Navbar from '@/components/Navbar'
 
 const Long = ({ProjectName , image , link}) => {
   return (
@@ -11,12 +12,12 @@ const Long = ({ProjectName , image , link}) => {
       <title>PLAYLISTS</title>
     </Head>
     <div className='playlist flex flex-col justify-center items-center gap-6 items-center'>
-                    <h1 className=' text-white font-bold text-7xl'>VFX / EXTRA <span className='render'>VIDEO</span> CONTENT</h1>
+                    <h1 className='long text-white font-bold text-7xl'>VFX / EXTRA <span className='render'>VIDEO</span> CONTENT</h1>
                     <h1 className='work_sub text-lg'>LOOK WHAT ARE YOU SEARCHING FOR ------</h1>
                 </div>
     <div className='work flex justify-center items-center'>
             <div className='flex flex-col justify-center items-center'>
-                <div className='boxes grid grid-rows-3 sm:grid-rows-3 grid-flow-row gap-14 sm:grid-flow-col'>
+                <div className='boxes gap-14 sm:flex-row flex-col'>
                  <Boxes 
                   ProjectName = "METRACK TEASER"
                   image = '/2.jpg'

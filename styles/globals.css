@@ -189,6 +189,11 @@ body{
 }
 .boxes{
   padding-top: 4rem;
+  display: flex;  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 
 }
 
@@ -298,6 +303,7 @@ body{
   /* background-color: #db0018; */
   height: 20rem;
   color: #db0018;
+  
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
 }
@@ -374,10 +380,14 @@ body{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .video-editor-name{
     /* padding-left: 5rem; */
-    font-size: 8rem;
+    font-size: 9rem;
     text-align: center;
+  }
+  .long{
+    font-size: 3rem;
+    padding-top: 5rem;
   }
 }

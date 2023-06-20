@@ -12,36 +12,38 @@ const Work = () => {
                     <h1 className='work_head  text-white font-bold text-7xl'>THE <span className='render'>RENDERS</span></h1>
                     <h1 className='work_sub text-lg'>BY ALL MEANS, CHOOSE YOUR STYLE ------</h1>
                 </div>
-                <div className='boxes  grid grid-rows-3 sm:grid-rows-3 grid-flow-row gap-14 sm:grid-flow-col'>
+                <div className='boxes gap-14 sm:flex-row flex-col'>
                  <Boxes 
                   ProjectName = "METRACK TEASER"
                   image = '/2.jpg'
                   link = 'https://youtu.be/KaPjkj5WAaI'
                  />
                  <Boxes 
-                  ProjectName = "TOKA"
-                  image= '/2.jpg'
-                  link = 'https://toka-vr.vercel.app/'
-                />
-                  <Boxes 
-                   ProjectName = "ADDIDAS-CLONE"
+                   ProjectName = "SCP 542"
                    image= '/2.jpg'
-                   link = 'https://adidas-clone-indol.vercel.app/'
+                   link = 'https://youtu.be/5G3MDhENfvc'
                  />
-                 <Boxes 
-                  ProjectName = "AGENCY"
+                <Boxes 
+                  ProjectName = "SHORTS/REELS"
                   image= '/2.jpg'
-                  link = 'https://agency-website-vr.vercel.app/'
+                  link = 'https://youtube.com/shorts/MhE23ESOXVE?feature=share'
+                  />
+                  
+                 <Boxes 
+                  ProjectName = "MICHAEL JORDAN"
+                  image= '/2.jpg'
+                  link = 'https://youtu.be/_nlhs-dI5jg'
                 />
                  <Boxes 
-                  ProjectName = "ISRO-CLONE"
+                  ProjectName = "STEPHEN CURRY"
                   image= '/2.jpg'
-                  link = 'https://isro-clone-redesign.vercel.app/'
-                  />
+                  link = 'https://youtu.be/0ZcjzoiKEiU'
+                />
+                 
                   <Boxes 
-                   ProjectName = "WEATHER-APP"
+                   ProjectName = "SHORTS/REELS"
                    image= '/2.jpg'
-                   link = 'https://weather-app-six-black.vercel.app/'
+                   link = 'https://youtube.com/shorts/WgnyJ31KGnw?feature=share'
                    />
             
              </div>

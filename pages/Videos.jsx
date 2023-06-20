@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar'
 import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
@@ -9,7 +10,8 @@ const Boxes = ({ProjectName , image , link}) => {
     <Head>
       <title>PLAYLISTS</title>
     </Head>
-    <div className='playlist flex justify-center items-center'>
+    <Navbar />
+    <div className='playlist pt-96 flex justify-center items-center'>
       <h1 className=' text-7xl font-bold'> PLAYLISTS</h1>
     </div>
     <div className='playlist_btns flex flex-col gap-8  '>
