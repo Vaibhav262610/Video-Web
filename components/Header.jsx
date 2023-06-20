@@ -8,7 +8,7 @@ const Header = () => {
         <div>
           <h1 className='video-editor-heading text-lg'>VIDEO EDITOR</h1>
         </div>
-        <div>
+        <div className='new'>
           <h1 className='video-editor-name text-9xl'>VAIBHAV RAJPOOT</h1>
         </div>
         <div className='container flex justify-center items-center'>

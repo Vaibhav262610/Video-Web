@@ -10,7 +10,7 @@ const Contact = () => {
                 <h1 className=' text-white font-bold text-7xl'>THE<span className='render'> 3-STEP </span>CONTACT</h1>
                 <h1 className='editor pb-14'>SAY HELLO TO ME ------</h1>
             </div>
-            <div className='flex flex-row pt-14'>
+            <div className='contact_row flex flex-row pt-14'>
                 <div className='flex justify-center items-center  gap-4' >
                     <div className='flex flex-col '>
                         <h1 className='contact_head'>CONTACT</h1>

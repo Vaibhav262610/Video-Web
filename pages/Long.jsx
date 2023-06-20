@@ -33,7 +33,7 @@ const Long = ({ProjectName , image , link}) => {
                    link = 'https://adidas-clone-indol.vercel.app/'
                  />
                  <Boxes 
-                  ProjectName = "AGENCY"
+                  ProjectName = "FIVERR INTRO"
                   image= '/2.jpg'
                   link = 'https://agency-website-vr.vercel.app/'
                 />
