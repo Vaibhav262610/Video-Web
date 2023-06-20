@@ -13,30 +13,30 @@ const Work = () => {
                     <h1 className='work_sub text-lg'>BY ALL MEANS, CHOOSE YOUR STYLE ------</h1>
                 </div>
                 <div className='boxes gap-14 sm:flex-row flex-col'>
-                 <Boxes 
+                 <Boxes
                   ProjectName = "METRACK TEASER"
-                  image = '/2.jpg'
+                  image = '/5.jpg'
                   link = 'https://youtu.be/KaPjkj5WAaI'
                  />
-                 <Boxes 
+                 <Boxes
                    ProjectName = "SCP 542"
                    image= '/2.jpg'
                    link = 'https://youtu.be/5G3MDhENfvc'
                  />
                 <Boxes 
                   ProjectName = "SHORTS/REELS"
-                  image= '/2.jpg'
+                  image= '/3.jpg'
                   link = 'https://youtube.com/shorts/MhE23ESOXVE?feature=share'
                   />
                   
                  <Boxes 
                   ProjectName = "MICHAEL JORDAN"
-                  image= '/2.jpg'
+                  image= '/4.jpg'
                   link = 'https://youtu.be/_nlhs-dI5jg'
                 />
                  <Boxes 
                   ProjectName = "STEPHEN CURRY"
-                  image= '/2.jpg'
+                  image= '/5.jpg'
                   link = 'https://youtu.be/0ZcjzoiKEiU'
                 />
                  

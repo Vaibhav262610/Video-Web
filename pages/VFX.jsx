@@ -20,7 +20,7 @@ const Long = ({ProjectName , image , link}) => {
                 <div className='boxes gap-14 sm:flex-row flex-col'>
                  <Boxes 
                   ProjectName = "METRACK TEASER"
-                  image = '/2.jpg'
+                  image = '/5.jpg'
                   link = 'https://youtu.be/KaPjkj5WAaI'
                  />
                  <Boxes 
@@ -30,17 +30,17 @@ const Long = ({ProjectName , image , link}) => {
                 />
                   <Boxes 
                    ProjectName = "ADDIDAS-CLONE"
-                   image= '/2.jpg'
+                   image= '/3.jpg'
                    link = 'https://adidas-clone-indol.vercel.app/'
                  />
                  <Boxes 
                   ProjectName = "AGENCY"
-                  image= '/2.jpg'
+                  image= '/4.jpg'
                   link = 'https://agency-website-vr.vercel.app/'
                 />
                  <Boxes 
                   ProjectName = "ISRO-CLONE"
-                  image= '/2.jpg'
+                  image= '/5.jpg'
                   link = 'https://isro-clone-redesign.vercel.app/'
                   />
                   <Boxes 

@@ -20,7 +20,7 @@ const Long = ({ProjectName , image , link}) => {
                 <div className='boxes gap-14 sm:flex-row flex-col'>
                  <Boxes 
                   ProjectName = "METRACK TEASER"
-                  image = '/2.jpg'
+                  image = '/5.jpg'
                   link = 'https://youtu.be/KaPjkj5WAaI'
                  />
                  <Boxes 
@@ -30,17 +30,17 @@ const Long = ({ProjectName , image , link}) => {
                 />
                   <Boxes 
                    ProjectName = "MICHAEL JORDAN"
-                   image= '/2.jpg'
+                   image= '/3.jpg'
                    link = 'https://youtu.be/_nlhs-dI5jg'
                  />
                  <Boxes 
                   ProjectName = "SUPER MARIO EASTER EGGS"
-                  image= '/2.jpg'
+                  image= '/4.jpg'
                   link = 'https://youtu.be/LM-Rgk2mroo'
                 />
                  <Boxes 
                   ProjectName = "STEPHEN CURRY"
-                  image= '/2.jpg'
+                  image= '/5.jpg'
                   link = 'https://youtu.be/0ZcjzoiKEiU'
                   />
                   <Boxes 
@@ -50,17 +50,17 @@ const Long = ({ProjectName , image , link}) => {
                    />
                   <Boxes 
                    ProjectName = "KANYE WEST EXPOSES"
-                   image= '/2.jpg'
+                   image= '/3.jpg'
                    link = 'https://youtu.be/iuDWFGJHluw'
                    />
                   <Boxes 
                    ProjectName = "LEBRON JAMES"
-                   image= '/2.jpg'
+                   image= '/4.jpg'
                    link = 'https://youtu.be/kQIzxQt-csI'
                    />
                   <Boxes 
                    ProjectName = "STEPHEN CURRY SPEND HIS MILLIONS"
-                   image= '/2.jpg'
+                   image= '/5.jpg'
                    link = 'https://youtu.be/--crKZ7wQb4'
                    />
                   <Boxes 
@@ -70,17 +70,17 @@ const Long = ({ProjectName , image , link}) => {
                    />
                   <Boxes 
                    ProjectName = "STEPH CURRY SPEND MILLIONS"
-                   image= '/2.jpg'
+                   image= '/3.jpg'
                    link = 'https://youtu.be/-lzu3275ncU'
                    />
                   <Boxes 
                    ProjectName = "SHAQ DISRESPECTED NBA PLAYERS"
-                   image= '/2.jpg'
+                   image= '/4.jpg'
                    link = 'https://youtu.be/uvtZGMEqrCs'
                    />
                   <Boxes 
                    ProjectName = "NBA PLAYER FORCE RULE CHANGE"
-                   image= '/2.jpg'
+                   image= '/5.jpg'
                    link = 'https://youtu.be/U7MvotkWvn8'
                    />
                   <Boxes 
@@ -89,18 +89,18 @@ const Long = ({ProjectName , image , link}) => {
                    link = 'https://youtu.be/jqNloRyXXYg'
                    />
                   <Boxes 
-                   ProjectName = "10 MOST EXPENSIVE CARS"
-                   image= '/2.jpg'
+                   ProjectName = "50 MOST EXPENSIVE CARS"
+                   image= '/3.jpg'
                    link = 'https://youtu.be/Ifsdtn2jsPg'
                    />
                   <Boxes 
                    ProjectName = "SCP 542"
-                   image= '/2.jpg'
+                   image= '/4.jpg'
                    link = 'https://youtu.be/5G3MDhENfvc'
                    />
                   <Boxes 
                    ProjectName = "BOY WAS STUCKED FOR 24 HOURS"
-                   image= '/2.jpg'
+                   image= '/5.jpg'
                    link = 'https://youtu.be/aGkqoU5x0hM'
                    />
                   <Boxes 
@@ -110,17 +110,17 @@ const Long = ({ProjectName , image , link}) => {
                    />
                   <Boxes 
                    ProjectName = "10 MOST EXPENSIVE CARS"
-                   image= '/2.jpg'
+                   image= '/3.jpg'
                    link = 'https://youtu.be/Ifsdtn2jsPg'
                    />
                   <Boxes 
                    ProjectName = "10 MOST EXPENSIVE CARS"
-                   image= '/2.jpg'
+                   image= '/4.jpg'
                    link = 'https://youtu.be/Ifsdtn2jsPg'
                    />
                   <Boxes 
                    ProjectName = "10 MOST EXPENSIVE CARS"
-                   image= '/2.jpg'
+                   image= '/5.jpg'
                    link = 'https://youtu.be/Ifsdtn2jsPg'
                    />
             
