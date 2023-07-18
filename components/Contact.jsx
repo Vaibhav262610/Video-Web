@@ -5,7 +5,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <>  
-        <div className='contact flex flex-col items-center '>
+        <div id='contact' className='contact flex flex-col items-center '>
             <div className='new_bg flex flex-col items-center justify-center gap-5 pt-14 '>
                 <h1 className=' text-white font-bold text-7xl'>THE<span className='render'> 3-STEP </span>CONTACT</h1>
                 <h1 className='editor pb-14'>SAY HELLO TO ME ------</h1>
@@ -33,11 +33,13 @@ const Contact = () => {
                     <h1 className='para '>You Will Be Delievered With The High Quality Final Product.</h1>
                 </div>
             </div>
+            <Link href='/Contact_btn'>
             <div className='new_btn flex justify-center items-center btn pb-14'>
                 <button className='work_btn '>
                     CONTACT
                 </button>
              </div>
+            </Link>
         </div>
     </>
   )

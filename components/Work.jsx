@@ -6,7 +6,7 @@ import Boxes from './Boxes'
 const Work = () => {
   return (
     <>
-        <div className='work  flex justify-center items-center'>
+        <div id='render' className='work  flex justify-center items-center'>
             <div className='flex flex-col justify-center items-center'>
                 <div className='flex  flex-col gap-6 items-center'>
                     <h1 className='work_head  text-white font-bold text-7xl'>THE <span className='render'>RENDERS</span></h1>

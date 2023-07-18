@@ -4,7 +4,7 @@ import React from 'react'
 const Experience = () => {
   return (
     <>
-    <div className='about flex flex-col justify-around items-center'>
+    <div id='about' className='about flex flex-col justify-around items-center'>
       <div className='w-10/12 flex flex-col justify-center items-center'>
         <div className='flex justify-center items-center flex-col gap-4'>
             <h1 className='about_me text-8xl  font-bold'>ABOUT ME</h1>
