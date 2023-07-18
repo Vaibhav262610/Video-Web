@@ -34,7 +34,7 @@ const Contact = () => {
                 </div>
             </div>
             <Link href='/Contact_btn'>
-            <div className='new_btn flex justify-center items-center btn pb-14'>
+            <div className='pb-12 new_btn flex justify-center items-center btn pb-14'>
                 <button className='work_btn '>
                     CONTACT
                 </button>
