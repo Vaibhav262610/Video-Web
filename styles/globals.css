@@ -265,7 +265,7 @@ body{
 
 .contact{
   background-color: #111111;
-  height: 80vh;
+  height: 100vh;
 }
 
 .new_bg{
@@ -300,7 +300,13 @@ body{
 }
 
 
-
+.bg_img{
+  background-image: url("2.jpg");
+  background-position: right;
+  /* background-color: #E0E0E0   ; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .playlist{
   /* background-color: #db0018; */
   height: 20rem;

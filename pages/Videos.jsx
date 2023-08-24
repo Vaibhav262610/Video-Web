@@ -11,19 +11,21 @@ const Boxes = ({ProjectName , image , link}) => {
       <title>PLAYLISTS</title>
     </Head>
     <Navbar />
-    <div className='playlist pt-96 flex justify-center items-center'>
-      <h1 className=' text-7xl font-bold'> PLAYLISTS</h1>
-    </div>
-    <div className='playlist_btns flex flex-col gap-8  '>
-      <Link href='/Long'>
-       <button className='playlist_btn '>LONG VIDEO CONTENT</button>
-      </Link>
-      <Link href='/shorts'>
-       <button className='playlist_btn '>SHORT VIDEO CONTENT</button>
-      </Link>
-      <Link href='/VFX'>
-       <button className='playlist_btn '>VFX / EXTRA CONTENT</button>
-      </Link>
+    <div className='bg_img'>
+      <div className='playlist pt-96 flex justify-center items-center'>
+        <h1 className=' text-7xl font-bold'> PLAYLISTS</h1>
+      </div>
+      <div className='playlist_btns flex flex-col gap-8  '>
+        <Link href='/Long'>
+        <button className='playlist_btn '>LONG VIDEO CONTENT</button>
+        </Link>
+        <Link href='/shorts'>
+        <button className='playlist_btn '>SHORT VIDEO CONTENT</button>
+        </Link>
+        <Link href='/VFX'>
+        <button className='playlist_btn '>VFX / EXTRA CONTENT</button>
+        </Link>
+      </div>
     </div>
     </>
   )
